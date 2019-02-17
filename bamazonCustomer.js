@@ -36,7 +36,7 @@ function currentInventory() {
 
 
     //loops through data base and displays items
-    let inventory = '';
+   
     for (var i = 0; i < data.length; i++) {
       inventory = '';
       inventory += 'Item ID: ' + data[i].item_id + '  //  ';
