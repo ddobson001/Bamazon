@@ -107,12 +107,15 @@ function userPurchase() {
 
 //validation for item choice
 function validateInput(value) {
+  
   if (isNaN(value) == false && parseInt(value) <= 10 && parseInt(value) > 0) {
     return true;
   } else {
     return 'Enter a ID Number from the current stock';
   }
 }
+
+
 //validation for Quantity
 function validateQuantityInput(value) {
   if (isNaN(value) == false) {
