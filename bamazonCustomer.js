@@ -115,7 +115,6 @@ function validateInput(value) {
   }
 }
 
-
 //validation for Quantity
 function validateQuantityInput(value) {
   if (isNaN(value) == false) {
